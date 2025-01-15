@@ -1,0 +1,35 @@
+O exercicio que vamos fazer, vai ser um publicador(pub) em Python, vai enviar mensagens em um tópico.
+
+As mensagens enviadas lá, serão pedidos de clientes do nosso e-commerce.
+
+Voce vai publicar um json lá, e o subscription vai ser um endpoint https(sub) em Python, para processar essa mensagem,
+
+e dar sequência no pedido de compra do cliente no nosso e-commerce.
+
+O documento json deve conter essas chaves:
+
+
+order_id,
+
+client_id,
+
+shipment_id,
+
+status
+
+User a criatividade na hora de publicar e criar esse document json :)
+
+Use a documentação oficial para escrever o pub e o sub - em PT-BR aqui https://docs.aws.amazon.com/pt_br/sns/latest/dg/sns-http-https-endpoint-as-subscriber.html
+
+e EN-US aqui https://docs.aws.amazon.com/sns/latest/dg/sns-http-https-endpoint-as-subscriber.html
+
+
+Leia outros códigos no github pra te ajudar nessa trabalho, mas lembre-se, quebre um pouco a cabeça antes!
+
+
+E claro, mande pra mim ou no grupo se precisar de alguma coisa!
+
+
+Abraços e bons estudos!
+
+mprado
